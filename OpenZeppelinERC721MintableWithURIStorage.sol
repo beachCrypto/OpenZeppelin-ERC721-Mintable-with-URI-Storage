@@ -19,7 +19,7 @@ contract BeachCryptoTestNFT is ERC721, ERC721URIStorage, AccessControl {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://gateway.pinata.cloud/ipfs/QmZbKAn1HiBCN1XLpphCmmhMA2ZzLZ1uubJrEizRFPf8fG/";
+        return "https://gateway.pinata.cloud/ipfs/QmQ1AT7S8DfJ2WA157tsCTmTbW8mQ1zeAtjyYFCjc4e48d/";
     }
 
     function safeMint(address to, string memory uri) public onlyRole(MINTER_ROLE) {
